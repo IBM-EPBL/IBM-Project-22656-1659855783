@@ -3,7 +3,7 @@
 Natural Disasters Intensity Analysis and Classification using Artificial Intelligence
 
 
-##🔗 Links
+## Links
 
 [Tasks](https://github.com/IBM-EPBL/IBM-Project-22656-1659855783/tree/main/Tasks) <br>
 [Assignments](https://github.com/IBM-EPBL/IBM-Project-22656-1659855783/tree/main/Assignment)
