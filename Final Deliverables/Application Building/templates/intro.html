@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384- Zenh87qX5ĩnK2ĩl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: linear-gradient(#ffffff78, rgba(2, 9, 11, 0.799));
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="card text-center">
+
+        <div class="card-header">
+
+            <ul class="nav nav-tabs card-header-tabs">
+
+                <li class="nav-item">
+
+                    <a class="nav-link" aria-current="true" href="{{ url_for('home')}}"
+                        style="font-size: 24px;">Home</a>
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link active" href="{{ url_for('intro') }}" style="font-size: 24px;">Introduction</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="{{ url_for('upload')}}" style="font-size: 24px;">Upload</a>
+
+                </li>
+
+            </ul>
+
+            <h4 style="float: right;">AI based Natural Disaster Intensity and Analysis</h4>
+
+        </div>
+
+    </div>
+
+    <h5 style="padding: 60px; margin: 60px; word-spacing: 5px; text-align: left ;line-height: 1.5;">
+        Indonesia, Japan, India and the United States are the countries which is world most affected by natural
+        disasters.
+        Natural disasters have the potential to wreck and even end the lives of those people, who stand in their
+        way.<br>However,whether or not you are likely to be
+        affected by a natural disaster dramatically depends on where in the world you live, The objective of the project
+        is to human build a web application to detect the type of disaster.The input
+        is taken from the in-built webcam, which in turn is given to the pre-trained model. The model predicts the type
+        of disaster and displayed on UI.
+
+        <br><br><br>
+        <h3 style="padding-left: 150px;">Presented by Team Members</h3>
+        <center>
+            <h4 style="color: rgb(228, 211, 211);">Rampa Nathan,Sampath,Thoufeeq,Vignesh</h4>
+        </center>.
+    </h5>
+</body>
+
+</html>
